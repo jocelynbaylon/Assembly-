@@ -53,7 +53,7 @@ _start:
 
     ; Perform addition
     mov al, [num1]      ; Load first number
-    add al, [num2]      ; Add second number
+    add al, [num2]      ; Add second number and you can change the operations
     mov [result], al    ; Store result
 
     ; Print result
